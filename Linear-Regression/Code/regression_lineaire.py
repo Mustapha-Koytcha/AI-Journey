@@ -5,8 +5,10 @@ import matplotlib.pyplot as plt
 data = pd.read_csv('C:/Users/adrie/Desktop/IA/AI-Journey/Linear-Regression/Dataset/housing.csv')
 print(data)
 
-y = data["median_house_value"]
-x = data["median_income"]
+y = data[1]
+x = data[0]
+print(x)
+print(y)
 
 n = len(x)
 
